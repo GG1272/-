@@ -20,6 +20,7 @@ namespace 贪吃蛇
         private void Form1_Load(object sender, EventArgs e)
         {
             //测试
+            //第二次测试
         }
     }
 }
