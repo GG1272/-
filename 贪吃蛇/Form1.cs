@@ -12,15 +12,18 @@ namespace 贪吃蛇
 {
     public partial class Form1 : Form
     {
+        Game game;
         public Form1()
         {
             InitializeComponent();
+             game = new Game(panel1);
         }
 
         private void Form1_Load(object sender, EventArgs e)
         {
             //测试
             //第二次测试
+            game.Start();
         }
     }
 }
