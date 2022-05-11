@@ -23,6 +23,7 @@ namespace 贪吃蛇
         {
             //测试
             //第二次测试
+            //项元g
             game.Start();
         }
     }
