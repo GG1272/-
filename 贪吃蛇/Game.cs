@@ -8,7 +8,7 @@ using System.Drawing;
 
 namespace 贪吃蛇
 {
-    class Game
+    public class Game
     {
         Square[,] data;
         int rows;

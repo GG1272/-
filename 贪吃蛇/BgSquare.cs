@@ -8,7 +8,7 @@ using System.Drawing;
 
 namespace 贪吃蛇
 {
-    class BgSquare:Square
+    public class BgSquare:Square
     {
         public BgSquare(int rows, int cols, Color bg) : base(rows, cols, bg)
         {

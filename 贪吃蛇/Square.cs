@@ -8,7 +8,7 @@ using System.Drawing;
 
 namespace 贪吃蛇
 {
-    class Square
+    public class Square
     {
         public Label Control { get; set; }
         public int xRows { get; set; }
@@ -21,6 +21,10 @@ namespace 贪吃蛇
             this.bg = bg;
             this.Control = new Label();
             this.Control.BackColor = bg;
+        }
+        public Square()
+        {
+
         }
     }
 }
